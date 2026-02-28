@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Foxy Web Studio</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #ffdde1, #ee9ca7);
+      text-align: center;
+      color: #4e6f9e;
+      scroll-behavior: smooth;
+    }
+
+    /* Glass Navbar */
+    .nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      padding: 20px 0;
+      backdrop-filter: blur(10px);
+      background: rgba(255, 255, 255, 0.15);
+    }
+
+    .nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 25px;
+      font-size: 18px;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    .nav a:hover {
+      opacity: 0.7;
+    }
+
+    /* Hero Section */
+    .hero {
+      padding-top: 160px;
+      animation: fadeIn 1.2s ease-in-out;
+    }
+
+    h1 {
+      font-size: 44px;
+      margin-bottom: 20px;
+      color: #3f5f8a;
+    }
+
+    p {
+      font-size: 18px;
+      margin-bottom: 30px;
+      color: #5c7aa8;
+    }
+
+    button {
+      padding: 14px 32px;
+      border: none;
+      border-radius: 30px;
+      background: black;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+      transition: 0.3s ease;
+    }
+
+    button:hover {
+      background: white;
+      color: black;
+      transform: translateY(-4px);
+    }
+
+    /* Sections */
+    section {
+      margin-top: 140px;
+    }
+
+    h2 {
+      font-size: 30px;
+      margin-bottom: 25px;
+      color: #3f5f8a;
+    }
+
+    section p {
+      margin: 10px 0;
+    }
+
+    /* Footer */
+    footer {
+      margin-top: 120px;
+      padding: 30px 0;
+      background: rgba(0,0,0,0.1);
+      color: white;
+      font-size: 14px;
+    }
+
+    /* Animation */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div class="nav">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <div class="hero">
+    <h1>Hi, I’m Foxyy 👩‍💻</h1>
+    <p>I create simple and aesthetic websites that feel modern and beautiful.</p>
+    <button>Hire Me</button>
+  </div>
+
+  <section>
+    <h2>What I Do</h2>
+    <p>🌸 Portfolio Websites</p>
+    <p>💼 Business Landing Pages</p>
+    <p>🎨 Aesthetic Personal Sites</p>
+  </section>
+
+  <section>
+    <h2>My Projects</h2>
+    <p>✨ Personal Portfolio Design</p>
+    <p>💻 Local Business Website</p>
+    <p>📱 Instagram Bio Landing Page</p>
+  </section>
+
+  <footer>
+    © 2026 Foxy Web Studio • Designed with passion 💙
+  </footer>
+
+</body>
+</html>
